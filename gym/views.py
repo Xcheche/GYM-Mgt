@@ -8,7 +8,7 @@ from gym.models import Banners
 
 def home(request):
     banners = Banners.objects.all()
-    services = Service.objects.all()
+    services = Service.objects.all()[:3]
     context = {
         "banners": banners,
         "services": services,
