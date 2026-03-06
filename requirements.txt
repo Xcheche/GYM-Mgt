@@ -18,3 +18,4 @@ django-cloudinary-storage
 django-extensions
 django-debug-toolbar
 django-storages
+black
